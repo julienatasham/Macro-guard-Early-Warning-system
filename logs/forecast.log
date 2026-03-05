@@ -1,0 +1,36 @@
+[2026-03-05 19:39:08,459] Starting real-time forecast simulation...
+[2026-03-05 19:39:08,903] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:39:19,283] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:39:29,640] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:39:39,958] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:39:50,272] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:40:00,999] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:40:11,736] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:40:22,480] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:40:32,879] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:40:43,430] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:40:53,791] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:41:04,543] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:41:15,117] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:41:25,429] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:41:36,117] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:41:46,811] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:41:57,151] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:42:07,481] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:42:17,805] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:42:28,242] Error during forecasting: Length of values (1) does not match length of index (5745)
+[2026-03-05 19:42:45,632] Starting real-time forecast simulation...
+[2026-03-05 19:43:11,070] Starting real-time forecast simulation...
+[2026-03-05 19:43:25,261] Error during forecasting: Missing column provided to 'parse_dates': 'Date'
+[2026-03-05 19:44:06,816] Starting real-time forecast simulation...
+[2026-03-05 19:44:20,289] Error during forecasting: Missing column provided to 'parse_dates': 'Date'
+[2026-03-05 19:46:27] INFO: Starting forecast run...
+[2026-03-05 19:46:40] INFO: Forecast saved to C:\Users\USER\OneDrive\Desktop\projects\Macro-guard Early Warning system\data\processed data\forecast_dataset.csv
+[2026-03-05 19:46:40] INFO: Memo updated at C:\Users\USER\OneDrive\Desktop\projects\Macro-guard Early Warning system\data\processed data\latest_forecast_memo.txt
+[2026-03-05 19:46:40] INFO: Forecast run completed successfully.
+
+[2026-03-05 19:49:49] INFO: Starting forecast run...
+[2026-03-05 19:50:08] INFO: Forecast saved to C:\Users\USER\OneDrive\Desktop\projects\Macro-guard Early Warning system\data\processed data\forecast_dataset.csv
+[2026-03-05 19:50:08] INFO: Memo updated at C:\Users\USER\OneDrive\Desktop\projects\Macro-guard Early Warning system\data\processed data\latest_forecast_memo.txt
+[2026-03-05 19:50:08] INFO: Forecast run completed successfully.
+
