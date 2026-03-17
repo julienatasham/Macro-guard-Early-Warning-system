@@ -16,12 +16,6 @@ macroguard
 │
 ├── pipelines
 │   data_pipeline.py
-│
-├── processing
-│   wrangling.py
-│   feature_engineering.py
-│
-├── models
 │   forecast_model.py
 │
 ├── storage
@@ -32,6 +26,38 @@ macroguard
 │
 ├── data
 │   raw
-│   processed
+│   clean
 │
 └── main.py
+
+## Real-Time Feature Pipeline
+
+This script will:
+
+Read the daily cleaned dataset (merged_clean.csv)
+
+Calculate rolling indicators like:
+
+7-day, 30-day FX volatility
+
+Monthly fuel price changes
+
+Yearly inflation delta
+
+Interest rate trends
+
+Normalize features for modeling or dashboard consumption
+
+Generate a composite “economic stress score”
+
+Save to CSV/Parquet for your dashboard or forecasting module
+
+## Real-Time Design Notes
+
+Use incremental updates: only compute new rows, append to existing feature table.
+
+Keep all computations vectorized with Pandas to avoid heavy SSD writes.
+
+Optional: Use SQLite or DuckDB for more scalable real-time storage.
+
+Later, when connecting to the cloud, you can read directly from AWS S3 / GCP bucket and write processed features without touching local SSD much.
